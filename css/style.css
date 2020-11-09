@@ -200,6 +200,12 @@ footer{
 
 
 @media(max-width: 575px){
+	.banner_text {
+    margin: auto;
+    padding: 6% 6% 0;
+    font-family: Helvetica;}
+
+
 	.text {
     background: #ffffffb5;
     padding: 40px 60px 10px;
