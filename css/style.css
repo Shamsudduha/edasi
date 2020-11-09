@@ -1,0 +1,293 @@
+body{
+	font-family: helvetica;
+}
+
+.logo{
+    padding: 18px 0px;
+}
+.logo a{
+    display: inline-block;
+}
+.logo img{
+    width: 212px;
+}
+
+
+.banner_section{}
+.banner-image{
+	background-image: url(../images/lo.png);
+	height: 90vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner_text{margin: auto;padding: 10% 6% 0;font-family: Helvetica;}
+.banner_text h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+.banner_text p {
+    font-size: 18px;
+    /* margin: 0; */
+}
+.banner_text span {}
+.banner_text  strike {}
+.banner_span{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.text{
+	
+background: #ffffffb5;
+	
+padding: 48px 60px;
+	
+text-align: center;
+}
+.sp{
+    margin: 26px;
+}
+.sp a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    display: inline;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    display: inline-block;
+    transition-duration: .3s;
+}
+.sp a:hover{
+    background: none;
+    color: black;
+}
+
+
+
+
+
+
+.areatext{
+    margin: 62px 0;
+}
+.bar1{
+
+background-color: black;
+
+height: 1px;
+}
+
+.areatext p{
+    font-size: 17px;
+    text-align: center;
+    padding: 0px 7px;
+}
+.areatext strong {}
+
+
+.photo_section{}
+.box3{
+    padding: 30px 0;
+    margin: auto;
+}
+.box_sub{
+    padding: 0px 5px;
+}
+.box_sub p{
+    font-size: 18px;
+    padding: 20px 0px;
+    text-align: center;
+}
+.box_sub h5{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px 0;
+    color: #444444;
+    margin: 0;
+}
+.box_sub img {
+    width: 100%;
+}
+.bar2{
+    background-color: black;
+    height: 2px;
+    width: 52px;
+    margin: auto;
+}
+
+
+.chart_section{
+    margin: 30px 0px 72px;
+}
+.chartimg{background-image: url(../images/Untitled-6.png);
+	width: 
+	100%;height: 1000px;object-fit:
+	 cover;background-repeat: no-repeat;}
+.chartimg h4{
+    font-size: 52px;
+    padding: 52px 0 0;
+}
+.chartimg i {}
+.chartimg li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 52px;
+}
+
+
+.img2{
+    padding: 20px 100px 0;
+}
+
+.areatext2{
+	margin: 10px 0;
+}
+
+.areatext2 p{
+    font-size: 17px;
+    text-align: center;
+    padding: 4px 7px;
+    }
+
+
+.img2_sub{}
+footer{
+    margin: 30px 0 10px;
+    text-align: center;
+}
+
+.bar3{
+    height: 2px;
+    width: 62%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.textfo{}
+.textfo h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.textfo p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.textfo span {}
+.spf{}
+.spf a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    display: inline;
+    font-size: 14px;
+    padding: 15px 45px;
+    border: 2px solid black;
+    display: inline-block;
+    transition-duration: .3s;
+    margin: 15px 0px 30px;
+    }
+.spf a:hover{
+	background: none;
+    color: black;
+}   
+
+/*********************************media***********************/
+
+
+@media(max-width: 575px){
+	.text {
+    background: #ffffffb5;
+    padding: 40px 60px 10px;
+    text-align: center;}
+    .areatext p {
+
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 30px}
+
+.box_sub p {
+    font-size: 20px;
+}
+
+.chartimg h4 {
+	color: white;
+    font-size: 42px}
+    .chartimg li {
+    	color: white;
+    list-style: none;
+    font-size: 16px;
+    line-height: 53px}
+
+.chartimg{background-image: url(../images/Untitled-6.png);
+	width: 100%;
+	height: 1000px;object-fit:
+	 cover;background-repeat: no-repeat;
+	     background-color: #7b7a7a;
+    background-blend-mode: multiply;
+
+	}
+
+
+
+.img2_sub{
+    width: 100%;
+    padding: 10px 0;
+}
+
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+
+	
+    .areatext p {
+
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 30px}
+
+.box_sub p {
+    font-size: 20px;
+}
+
+.chartimg h4 {
+	color: white;
+    font-size: 42px}
+    .chartimg li {
+    color: white;
+    list-style: none;
+    font-size: 16px;
+    line-height: 48px;}
+
+.chartimg{background-image: url(../images/Untitled-6.png);
+	width: 100%;
+	height: 1000px;object-fit:
+	 cover;background-repeat: no-repeat;
+	     background-color: #7b7a7a;
+    background-blend-mode: multiply;
+
+	}
+
+
+
+.img2_sub{
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+}
